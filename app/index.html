@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bookshop - CAP Dev</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        h1 { color: #0070f2; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .links { margin: 20px 0; }
+        .link-card { display: inline-block; padding: 15px 25px; margin: 10px; background: #0070f2; color: white; text-decoration: none; border-radius: 4px; transition: background 0.3s; }
+        .link-card:hover { background: #005bb5; }
+        .info { background: #e3f2fd; padding: 15px; border-left: 4px solid #0070f2; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Bookshop Application</h1>
+        <p>Bem-vindo à aplicação Bookshop desenvolvida com SAP Cloud Application Programming Model (CAP).</p>
+        
+        <div class="info">
+            <strong>🎯 Funcionalidades:</strong>
+            <ul>
+                <li>Catálogo de Livros com Autores e Géneros</li>
+                <li>Validações de Stock e Preço</li>
+                <li>Cálculo Automático de Descontos</li>
+                <li>API OData v4</li>
+            </ul>
+        </div>
+        
+        <h2>🔗 Acesso aos Serviços</h2>
+        <div class="links">
+            <a href="/odata/v4/catalog" class="link-card">📋 Catalog Service</a>
+            <a href="/odata/v4/catalog/Books" class="link-card">📚 Books</a>
+            <a href="/odata/v4/catalog/Authors" class="link-card">✍️ Authors</a>
+            <a href="/odata/v4/catalog/Genres" class="link-card">🏷️ Genres</a>
+        </div>
+        
+        <h2>📊 Metadata</h2>
+        <div class="links">
+            <a href="/odata/v4/catalog/$metadata" class="link-card">📄 Service Metadata</a>
+        </div>
+    </div>
+</body>
+</html>
