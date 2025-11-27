@@ -1,4 +1,3 @@
-cat > LEARNING.md << 'ENDOFFILE'
 # 🎓 Guia de Aprendizagem - Projeto Bookshop SAP CAP
 
 **Data**: 27 de Novembro de 2025
